@@ -1,0 +1,6 @@
+{
+  "name": "SolCraft Atelier - Servis & Restorasi Sepatu Premium",
+  "description": "Layanan servis sepatu lengkap dengan diagnosa detail per bagian, bahan premium bergaransi, antar-jemput aman, pelacakan real-time via WhatsApp, dan pembayaran digital praktis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

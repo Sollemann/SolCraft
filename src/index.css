@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Fraunces', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-atelier-bg: #0E0F12;
+  --color-atelier-card: #16181D;
+  --color-atelier-surface: #1E2128;
+  --color-atelier-border: rgba(255, 255, 255, 0.08);
+  --color-atelier-accent: #D4A373;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #0E0F12;
+  color: #E5E5E2;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0E0F12;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A2D37;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3F4452;
+}
